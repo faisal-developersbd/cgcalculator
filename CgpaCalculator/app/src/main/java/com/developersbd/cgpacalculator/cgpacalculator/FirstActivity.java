@@ -60,25 +60,20 @@ public class FirstActivity extends AppCompatActivity implements View.OnTouchList
                 float x1,x2,x3,x4,y1,y2,y3,y4;
 
                 //reading subject's numbers
-//                x1=(Float)Float.parseFloat(sub1.getText().toString());
-//                x2=(Float)Float.parseFloat(sub2.getText().toString());
-//                x3=(Float)Float.parseFloat(sub3.getText().toString());
-//                x4=(Float)Float.parseFloat(sub4.getText().toString());
-                String s=sub1.getText().toString()+"f";
-                String s2=sub2.getText().toString();
-                String s3=sub3.getText().toString();
-                String s4=sub4.getText().toString();
-                int ab=Integer.parseInt(s);
-//
-//                //reading credit hour
-//                y1=(Float)Float.parseFloat(credit_hour1.getText().toString());
-//                y2=(Float)Float.parseFloat(credit_hour2.getText().toString());
-//                y3=(Float)Float.parseFloat(credit_hour3.getText().toString());
-//                y4=(Float)Float.parseFloat(credit_hour4.getText().toString());
-//
-//                //calculation and generating result
-//                float res=((x1*y1)+(x2*y2)+(x3*y3)+(x4*y4))/(y1+y2+y3+y4);
-                Toast.makeText(getBaseContext(),"CGPA: ",Toast.LENGTH_LONG).show();
+                x1=Float.parseFloat(marks1.getText().toString());
+                x2=Float.parseFloat(marks2.getText().toString());
+                x3=Float.parseFloat(marks3.getText().toString());
+                x4=Float.parseFloat(marks4.getText().toString());
+
+                //reading credit hour
+                y1=Float.parseFloat(credit_hour1.getText().toString());
+                y2=Float.parseFloat(credit_hour2.getText().toString());
+                y3=Float.parseFloat(credit_hour3.getText().toString());
+                y4=Float.parseFloat(credit_hour4.getText().toString());
+
+                //calculation and generating result
+                float res=((x1*y1)+(x2*y2)+(x3*y3)+(x4*y4))/(y1+y2+y3+y4);
+                Toast.makeText(getBaseContext(),"CGPA: "+res,Toast.LENGTH_LONG).show();
                                         break;
             case MotionEvent.ACTION_MOVE: break;
 
