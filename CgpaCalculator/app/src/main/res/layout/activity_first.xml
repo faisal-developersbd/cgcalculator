@@ -22,25 +22,28 @@
             android:layout_weight="1">
 
             <TextView
-                android:text="TextView"
+                android:text="SUBJECT 1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:paddingTop="40dp"
                 android:id="@+id/textView" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:inputType="textPersonName"
-                android:text="Name"
+                android:inputType="numberDecimal"
+                android:hint="marks"
                 android:layout_weight="1"
+
                 android:id="@+id/editText2" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:inputType="textPersonName"
-                android:text="Name"
+
+                android:inputType="numberDecimal"
+                android:hint="credit hour"
                 android:layout_weight="1"
                 android:id="@+id/editText" />
 
@@ -53,25 +56,27 @@
             android:layout_weight="1">
 
             <TextView
-                android:text="TextView"
+                android:text="SUBJECT 2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:paddingTop="40dp"
                 android:id="@+id/textView2" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:inputType="textPersonName"
-                android:text="Name"
+
+                android:inputType="numberDecimal"
+                android:hint="marks"
                 android:layout_weight="1"
                 android:id="@+id/editText3" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:inputType="textPersonName"
-                android:text="Name"
+                android:inputType="numberDecimal"
+                android:hint="credit hour"
                 android:layout_weight="1"
                 android:id="@+id/editText4" />
         </LinearLayout>
@@ -83,25 +88,26 @@
             android:layout_weight="1">
 
             <TextView
-                android:text="TextView"
+                android:text="SUBJECT 3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:paddingTop="40dp"
                 android:id="@+id/textView3" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:inputType="textPersonName"
-                android:text="Name"
+                android:inputType="numberDecimal"
+                android:hint="marks"
                 android:layout_weight="1"
                 android:id="@+id/editText5" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:inputType="textPersonName"
-                android:text="Name"
+                android:inputType="numberDecimal"
+                android:hint="credit hour"
                 android:layout_weight="1"
                 android:id="@+id/editText6" />
         </LinearLayout>
@@ -113,25 +119,26 @@
             android:layout_weight="1">
 
             <TextView
-                android:text="TextView"
+                android:text="SUBJECT 4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:paddingTop="40dp"
                 android:id="@+id/textView4" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:inputType="textPersonName"
-                android:text="Name"
+                android:inputType="numberDecimal"
+                android:hint="marks"
                 android:layout_weight="1"
                 android:id="@+id/editText7" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:inputType="textPersonName"
-                android:text="Name"
+                android:inputType="numberDecimal"
+                android:hint="credit hour"
                 android:layout_weight="1"
                 android:id="@+id/editText8" />
         </LinearLayout>
@@ -143,7 +150,7 @@
             android:layout_weight="1">
 
             <Button
-                android:text="Button"
+                android:text="CALCULATE CGPA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/button2"
