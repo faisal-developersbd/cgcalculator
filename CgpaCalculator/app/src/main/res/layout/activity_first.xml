@@ -26,7 +26,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:paddingTop="40dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
                 android:id="@+id/textView" />
 
             <EditText
@@ -36,7 +37,7 @@
                 android:hint="marks"
                 android:layout_weight="1"
 
-                android:id="@+id/editText2" />
+                android:id="@+id/editText" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -45,7 +46,7 @@
                 android:inputType="numberDecimal"
                 android:hint="credit hour"
                 android:layout_weight="1"
-                android:id="@+id/editText" />
+                android:id="@+id/editText2" />
 
         </LinearLayout>
 
@@ -60,7 +61,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:paddingTop="40dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
                 android:id="@+id/textView2" />
 
             <EditText
@@ -92,7 +94,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:paddingTop="40dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
                 android:id="@+id/textView3" />
 
             <EditText
@@ -123,7 +126,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:paddingTop="40dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
                 android:id="@+id/textView4" />
 
             <EditText
@@ -141,6 +145,146 @@
                 android:hint="credit hour"
                 android:layout_weight="1"
                 android:id="@+id/editText8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="SUBJECT 5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:id="@+id/textView5" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:hint="marks"
+                android:layout_weight="1"
+
+                android:id="@+id/editText9" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:inputType="numberDecimal"
+                android:hint="credit hour"
+                android:layout_weight="1"
+                android:id="@+id/editText10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="SUBJECT 6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:id="@+id/textView6" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:hint="marks"
+                android:layout_weight="1"
+
+                android:id="@+id/editText11" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:inputType="numberDecimal"
+                android:hint="credit hour"
+                android:layout_weight="1"
+                android:id="@+id/editText12" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="SUBJECT 7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:id="@+id/textView7" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:hint="marks"
+                android:layout_weight="1"
+
+                android:id="@+id/editText13" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:inputType="numberDecimal"
+                android:hint="credit hour"
+                android:layout_weight="1"
+                android:id="@+id/editText14" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="SUBJECT 8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:id="@+id/textView8" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="numberDecimal"
+                android:hint="marks"
+                android:layout_weight="1"
+
+                android:id="@+id/editText15" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:inputType="numberDecimal"
+                android:hint="credit hour"
+                android:layout_weight="1"
+                android:id="@+id/editText16" />
+
         </LinearLayout>
 
         <LinearLayout
